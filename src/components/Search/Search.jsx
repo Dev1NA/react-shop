@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ShopContext } from '../../context'
 
-function Search(props) {
-  const { setValue, value } = props;
+function Search() {
+  const { setValue, value } = useContext(ShopContext);
   return <div>
     <nav className='teal darken-2'>
       <div className="nav-wrapper container ">

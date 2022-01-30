@@ -119,6 +119,7 @@ code {
 .icon-add,
 .icon-sub {
   cursor: pointer;
+  color: #00796b;
 }
 
 .icon-add {
