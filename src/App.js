@@ -1,9 +1,6 @@
-import React, { useContext }  from 'react'
-
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import Shop from './components/Shop/Shop'
-import { ContextProvider } from './context'
+import React  from 'react'
+import { Header, Footer, Shop } from './components/index'
+import { ContextProvider } from './context/context'
 
 function App() {
 

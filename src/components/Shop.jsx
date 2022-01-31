@@ -1,12 +1,7 @@
 import React, { useContext } from 'react';
-import Alert from '../Alert/Alert';
-import BasketList from '../BasketList/BasketList';
-import Cart from '../Cart/Cart';
-import Item from '../Item/Item'
-import Preloader from '../Preloader/Preloader';
-import Search from '../Search/Search';
-import { ShopContext } from '../../context'
-import { API_KEY, API_URL } from '../../config'
+import { Alert, BasketList, Cart, Item, Preloader, Search} from './'
+import { ShopContext } from '../context/context'
+import { API_KEY, API_URL } from '../config'
 
 function Shop() {
   const {

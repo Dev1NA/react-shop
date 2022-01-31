@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import BasketItem from '../BasketItem/BasketItem';
-import { ShopContext } from '../../context'
+import { BasketItem } from './';
+import { ShopContext } from '../context/context'
 
 function BasketList() {
   const {

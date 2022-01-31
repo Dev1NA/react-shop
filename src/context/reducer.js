@@ -1,4 +1,4 @@
-export default function reducer (state, { type, payload }) {
+const reducer = (state, { type, payload }) => {
   console.log('type: ', type);
   switch (type) {
     case 'SET_GOODS':
@@ -87,3 +87,5 @@ export default function reducer (state, { type, payload }) {
     default: throw new Error();
   }
 }
+
+export default reducer;
